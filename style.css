@@ -1,0 +1,115 @@
+@viewport {
+    width: device-width ;
+    zoom: 1.0 ;
+}
+
+html { 
+    background: url(mountains-1412683_1280.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    overflow: auto;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+h1 {
+    font-weight: 200;
+    letter-spacing: 3;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+#myself{
+    font-size: 1.2em;
+    font-weight: 500;
+    letter-spacing: 1;
+}
+
+#typed{
+    margin-bottom: 6px;
+    margin-top: 8px;
+}
+
+#typed-strings{
+    font-size: 1.1em;
+    font-weight: 400;
+    letter-spacing: 1;
+    margin-top: 8px;
+    margin-bottom: 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+.profile-box {
+    height: 450px;
+    background: rgba(72, 84, 96, 0.7);
+    padding: 49px;
+    color: rgba(236, 240, 241,1.0);
+    margin: 0 auto;
+    margin-top: 80px;
+    text-align: center;
+    border-radius: 1%;
+    overflow-y: hidden;
+    box-shadow: 5px 5px #888888;
+}
+
+@media only screen and (min-width: 600px) {
+  .profile-box {
+    width: 400px;
+  }
+}
+
+
+.image {
+    border-radius: 50%;
+    height: 220px;
+    width: 220px;
+    -webkit-box-shadow: 2px 3px 114px -2px rgba(158,181,180,0.73);
+-moz-box-shadow: 2px 3px 114px -2px rgba(158,181,180,0.73);
+box-shadow: 2px 3px 114px -2px rgba(158,181,180,0.73);
+}
+
+.social-icons {
+    font-size: 33px;
+}
+
+.social-icons a {
+    color: #dcdde1;
+    transition: all ease-in-out 250ms;
+}
+
+.social-icons a:hover {
+    color: #727272;
+    box-shadow: 0 5px #666;
+}
+
+.line-break {
+    width: 360px;
+    margin-top: auto;
+    margin-bottom: 18px;
+    margin-right: auto;
+    margin-left: auto;
+    border-top: 1px solid white;
+
+}
+
+.inside-box{
+    text-align: center;
+    margin-top: 20px;
+}
+
+#footer {
+  color: #adadad;
+  font-family: 'Caveat', cursive;
+  font-size: 16px;
+  bottom: 0;
+  width: 100%;
+  margin-bottom: 10px;
+  margin-top: 13px;
+  text-align: center;
+}
